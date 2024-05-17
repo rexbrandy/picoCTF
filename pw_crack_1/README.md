@@ -30,7 +30,7 @@ def level_1_pw_check():
 the if statemant on line 3 of this sub is checking if the inputted password is equal to `691d`. After reviewing the code it's quite simple, we run the script and input the prompt and we will see this.
 
 ```
-> py level1.py 
+> python3 level1.py 
 Please enter correct password for flag: 691d
 Welcome back... your flag, user:
 picoCTF{#################}
