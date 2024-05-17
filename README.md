@@ -1,2 +1,1 @@
 # PicoCTF
-# picoCTf
