@@ -1,5 +1,5 @@
 # login
-Link to (Challenge) [https://play.picoctf.org/practice/challenge/200]
+Link to [Challenge](https://play.picoctf.org/practice/challenge/200)
 
 ### Description
 My dog-sitter's brother made this website but I can't get in; can you help?
