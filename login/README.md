@@ -10,7 +10,13 @@ When we first navigate to the website we see a rather plain looking login page.
 
 ![login page](/login/imgs/login_page.png)
 
-My first thought when probing a login page like this is to try the credentials user: `admin` pass: `admin`. After trying this we see this alert pop up.
+My first thought when probing a login page like this is to try the credentials:
+
+user: `admin`
+
+pass: `admin`
+
+After trying this we see this alert pop up.
 
 ![Incorrect login alert](/login/imgs/incorrect_login_alert.png)
 
