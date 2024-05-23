@@ -8,7 +8,7 @@ Run the Python script and convert the given number from decimal to binary to get
 When we open the script this is what we see:
 
 ```
-convertme.py
+# convertme.py
 
 import random
 
@@ -55,7 +55,7 @@ Answer:
 There is 2 ways to get the flag from this challenge, we could convert the number into binary and answer the script in the predicted way or we can change the file to just tell us what the flag is straight away.
 
 ```
-solution.py
+# solution.py
 
 import random
 
