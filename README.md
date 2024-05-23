@@ -8,5 +8,5 @@ Welcome to my PicoCTF Challenges repository! PicoCTF is a free, online computer 
 
 ## Challenges
 
-You can find the solutions in the `challenges/` dir, in each dir is the challenge description, link to challenge and the solution I have come up with for each challenge.
+You can find the solutions in `challenges/`, in each dir is the challenge description, link to challenge and the solution I have come up with for each challenge.
 
