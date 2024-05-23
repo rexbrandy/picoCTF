@@ -1,5 +1,5 @@
 # login
-Link to [Challenge] (https://play.picoctf.org/practice/challenge/200)
+Link to (Challenge) [https://play.picoctf.org/practice/challenge/200]
 
 ### Description
 My dog-sitter's brother made this website but I can't get in; can you help?
@@ -71,9 +71,9 @@ index.js
 ```
 
 This JS code creates an async function that will listen for the form submission, it will then catch the form submission, prevent default and put the username and password into the `r` object and declare the `t` object.
-Next it will loop over `r` object and encode the value using the [btoa()] (https://developer.mozilla.org/en-US/docs/Web/API/btoa) function. This creates a Base64 encoding of the value inputted and stores it in the `t` object.
+Next it will loop over `r` object and encode the value using the (btoa())[https://developer.mozilla.org/en-US/docs/Web/API/btoa] function. This creates a Base64 encoding of the value inputted and stores it in the `t` object.
 Lastly it will check if the encoded username(`t.u`) is equal to "YWRtaW4", if true it will check if the encoded password(`t.p`) is equal to "cGljb0NURns1M3J2M3JfNTNydjNyXzUzcnYzcl81M3J2M3JfNTNydjNyfQ", if true it create an alert which decodes the password `atob(t.p)` which we can see is our flag.
-The [atob()] (https://developer.mozilla.org/en-US/docs/Web/API/atob) function is the inverse of the `btoa()` function and will decode the Base64 string.
+The (atob())[https://developer.mozilla.org/en-US/docs/Web/API/atob] function is the inverse of the `btoa()` function and will decode the Base64 string.
 
 We can use the DevTools Console to decode the password using `atob('cGljb0NURns1M3J2M3JfNTNydjNyXzUzcnYzcl81M3J2M3JfNTNydjNyfQ')` which will give us the flag:
 
