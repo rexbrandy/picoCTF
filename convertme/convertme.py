@@ -22,9 +22,6 @@ print('If ' + str(num) + ' is in decimal base, what is it in binary base?')
 
 ans = input('Answer: ')
 
-flag = str_xor(flag_enc, 'enkidu')
-print('That is correct! Here\'s your flag: ' + flag)
-
 try:
   ans_num = int(ans, base=2)
   
